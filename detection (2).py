@@ -9,8 +9,8 @@ VIDEO_SOURCE = 0
 LIVE_FEED = "assets/live_feed.jpg"
 LOG_FILE = "violations_log.json"
 
-BOT_TOKEN = "7666135419:AAF1FbT-0iE8uz6Qb1FjIhqT2wFJIJtQIFY" # replace with your bot token
-CHAT_ID = "6623649601"  # replace with your chat ID
+BOT_TOKEN = "YOUR BOT TOKEN" # replace with your bot token
+CHAT_ID = "YOUR BOT CHAT ID"  # replace with your chat ID
 
 START_FRAMES = 5
 END_FRAMES = 5
@@ -147,3 +147,4 @@ while cap.isOpened():
 
 cap.release()
 cv2.destroyAllWindows()
+
